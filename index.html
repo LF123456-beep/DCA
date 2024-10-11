@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>DCA - Digital Companion App</title>
+  <!-- Falls "Vegur" nicht verfügbar ist, Raleway als Alternative -->
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+  <div class="container">
+    <div class="logo">
+      <h1>DCA</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#about">Über uns</a></li>
+        <li><a href="#features">Funktionen</a></li>
+        <li><a href="#team">Team</a></li>
+        <li><a href="#contact">Kontakt</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<section id="hero">
+  <!-- Hintergrundvideo -->
+  <video autoplay muted loop id="background-video">
+    <source src="background-video.mp4" type="video/mp4">
+    Dein Browser unterstützt dieses Videoformat nicht.
+  </video>
+
+  <div class="hero-content">
+    <h2>Die Zukunft der Kinderonkologie ist digital.</h2>
+    <p>Die Digital Companion App (DCA) begleitet Familien und Kinder in der Onkologie durch alle Phasen – von der Diagnose bis zur Nachsorge.</p>
+    <a href="#features" class="btn-primary">Mehr erfahren</a>
+  </div>
+</section>
+
+<section id="about" class="section">
+  <div class="container">
+    <h2>Über uns</h2>
+    <p>Die Digital Companion App (DCA) bietet Familien und Kindern in der Onkologie Unterstützung, indem sie alle wichtigen Informationen, Dokumente und Vernetzungsmöglichkeiten an einem Ort bündelt.</p>
+  </div>
+</section>
+
+<section id="features" class="section">
+  <div class="container">
+    <h2>Funktionen</h2>
+    <div class="features-grid">
+      <div class="feature-item">Dokumentation aller medizinischen Befunde</div>
+      <div class="feature-item">Vernetzungsplattform für betroffene Familien</div>
+      <div class="feature-item">Verständliche Informationen zu Therapie und Nachsorge</div>
+      <div class="feature-item">Direkte Kommunikation mit Experten</div>
+      <div class="feature-item">Erinnerungen an wichtige Termine</div>
+    </div>
+  </div>
+</section>
+
+<section id="team" class="section">
+  <div class="container">
+    <h2>Unser Team</h2>
+    <p>Ein Team aus freiwilligen Helfern, ehemaligen Patienten und Eltern, die diese App entwickelt haben, um andere Familien zu unterstützen.</p>
+  </div>
+</section>
+
+<section id="contact" class="section">
+  <div class="container">
+    <h2>Kontakt</h2>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      <label for="email">E-Mail:</label>
+      <input type="email" id="email" name="email" required>
+      <label for="message">Nachricht:</label>
+      <textarea id="message" name="message" required></textarea>
+      <button type="submit">Absenden</button>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <p>&copy; 2024 Digital Companion App. Alle Rechte vorbehalten.</p>
+  </div>
+</footer>
+</body>
+</html>
+
